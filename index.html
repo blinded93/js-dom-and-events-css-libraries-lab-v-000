@@ -4,10 +4,65 @@
     <title>HTML/CSS Lab</title>
     <link rel="stylesheet" href="https://unpkg.com/basscss@8.0.1/css/basscss.min.css">
     <style>
-
+      .div-width {
+        width:600px;
+      }
+      .muted {
+        color:#999;
+      }
+      .inline {
+        display:inline;
+      }
     </style>
   </head>
   <body>
-
+    <div class='mx-auto div-width'>
+      <div class="flex border-bottom mt1">
+        <img class='mr2' width='48' height='48' src="photos/facebook.png" alt="Facebook">
+        <div>
+          <p class='h4 bold' style='display:inline'>
+            Facebook
+          </p>
+          <small class='muted'>@Facebook - Oct 15</small><br>
+          <p>Boy, that Cambridge Analytica session was intense! I can't belive some of those questions!</p>
+        </div>
+      </div>
+      <div class="flex border-bottom mt1">
+        <img src="photos/google-plus.png" class='mr2' width='48' height='48' alt="Google+">
+        <div>
+          <p class='h4 bold' style='display:inline'>
+            Google+
+          </p>
+          <small class='muted'>@GooglePlus - Oct 17</small><br>
+          <p>
+            Yeah, I can imagine! You would have thought they could come up with better questions..
+          </p>
+        </div>
+      </div>
+      <div class="flex border-bottom mt1">
+        <img src="photos/linkedin.png" class='mr2' width='48' height='48' alt="Linkedin">
+        <div>
+          <p class='h4 bold' style='display:inline'>
+            Linkedin
+          </p>
+          <small class='muted'>@Linkedin - Oct 18</small><br>
+          <p>
+            Work, work, work....I have no time for all of this nonesense. #Workaholics
+          </p>
+        </div>
+      </div>
+      <div class="flex border-bottom mt1">
+        <img src="photos/twitter.png" class='mr2' width='48' height='48' alt="Twitter">
+        <div>
+          <p class='h4 bold' style='display:inline'>
+            Twitter
+          </p>
+          <small class='muted'>@Twitter - Oct 20</small><br>
+          <p>
+            What are all of you doing on my feed?! Hell, why are you on my website?!?! #GoBackHome
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
